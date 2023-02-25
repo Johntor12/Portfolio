@@ -6,7 +6,14 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {'neutral-100': '#20252B',
+    'greenlight': '#2BC20E'},
+      fontFamily: {
+          CoralColour: ['Coral Colour'],
+          Montserrat: ['Montserrat', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
