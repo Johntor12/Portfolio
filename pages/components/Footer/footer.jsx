@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { BsWhatsapp, BsInstagram, BsLinkedin } from "react-icons/bs";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer id="footer" className="bg-gray-900 mt-[100px] md:mt-[20px]">
       <div className="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
@@ -55,6 +55,4 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
